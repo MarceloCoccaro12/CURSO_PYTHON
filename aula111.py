@@ -35,10 +35,10 @@ def muda_preco_de_produtos(produto):
         'preco': aumentar_dez_porcento(produto['preco'])}
 
 
-novos_produtos = map(
+novos_produtos = list(map(
     muda_preco_de_produtos,
     produtos
-)
+))
 
 
 print_iter(produtos)
