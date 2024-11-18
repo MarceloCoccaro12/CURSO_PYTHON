@@ -11,5 +11,6 @@
     "code-runner.ignoreSelection": true,
     "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
     "workbench.iconTheme": "material-icon-theme",
-    "python.defaultInterpreterPath": "python"
+    "python.defaultInterpreterPath": "venv/bin/python",
+    
 }
